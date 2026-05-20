@@ -35,3 +35,5 @@ steps:
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-south1-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=gcp-devops-cluster'
+    options:
+  logging: CLOUD_LOGGING_ONLY
