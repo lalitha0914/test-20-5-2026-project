@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-container
-        image: asia-south1-docker.pkg.dev/PROJECT-ID/my-repo/gcp-devops-app:latest
+        image: asia-south1-docker.pkg.dev/project-d479dbab-4622-4305-b61/my-repo/gcp-devops-app:latest
 
         ports:
         - containerPort: 80
